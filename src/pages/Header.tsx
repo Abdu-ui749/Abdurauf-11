@@ -3,8 +3,8 @@ import React from 'react'
 const Header = () => {
   return (
    
-    <header className=' sticky top-0' >
-    <nav className="bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800">
+ 
+    <nav className="bg-white  sticky top-0 border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800">
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
          
         <img className="mr-3 rounded-[10px] w-[80px]" src="https://reactjs.org/logo-og.png" alt="React Image" />
@@ -43,7 +43,7 @@ const Header = () => {
             </div>
         </div>
     </nav>
-</header>
+
 
   )
 }

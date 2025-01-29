@@ -1,24 +1,23 @@
 import React from 'react'
 import Header from './Header'
-import { Routes, Route } from "react-router"
-import Signin from './Signin'
+import {Routes, Route ,Router } from "react-router";
 import Register from './Register'
-import Card from './Card'
+import Signin from './Signin'
+import Hero from './Hero'
+
 const App = () => {
   return (
-    <div>  
-
+     <div>
 <Routes>
- <Route index element={<Header/>} />
+ <Route index element={<Header/> } />
  <Route path="/Signin" element={<Signin/>} />
  <Route path="/Register" element={<Register/>} />
  <Route path="/App" element={<App/>} />
- <Route path="/Card" index element={<Card/>} />
+ <Route  element={<Hero/>} />
 </Routes>
+     </div>
 
 
-
- </div>
   )
 }
 
