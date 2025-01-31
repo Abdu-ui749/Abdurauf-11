@@ -12,7 +12,7 @@ const Marketplace = () => {
         </div>
         <div className='flex ml-[70px]' >
         <div className="w-[300px] ml-[50px] mt-[20px] bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
-        <img className="rounded-t-lg  w-[300px]  h-[300px] " src="./src/assets/euro.webp" alt="" />
+        <img className="rounded-t-lg  w-[300px]  h-[300px] " src="./src/assets/EURO.webp" alt="" />
    
     <div className="p-5">
         <a href="./Card">
@@ -42,7 +42,7 @@ const Marketplace = () => {
     </div>
     <div className="w-[300px] ml-[50px] mt-[20px] bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
    
-        <img className="rounded-t-lg  w-[300px]  h-[300px] " src="./src/assets/uclball.jpg" alt="" />
+        <img className="rounded-t-lg  w-[300px]  h-[300px] " src="./src/assets/UCL.jpg" alt="" />
     
     <div className="p-5">
         <a href="./Card">

@@ -7,11 +7,14 @@ import Hero from './Hero'
 import Marketplace from './Marketplace';
 import Card from './Card';
 import Team from './Team';
+import Contact from './Contact';
+
 const App = () => {
   return (
      <div>
-      <Header />
+      <Header  />
 <Routes>
+<Route path="/Contact" element={<Contact/>} />
 <Route path="/Team" element={<Team/>} />
 <Route path="/Card" element={<Card/>} />
 <Route path="/Marketplace" element={<Marketplace/>} />
