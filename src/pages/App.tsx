@@ -8,12 +8,13 @@ import Marketplace from './Marketplace';
 import Card from './Card';
 import Team from './Team';
 import Contact from './Contact';
-
+import Mesagge from './Mesagge';
 const App = () => {
   return (
      <div>
       <Header  />
 <Routes>
+<Route path="/Mesagge" element={<Mesagge/>} />
 <Route path="/Contact" element={<Contact/>} />
 <Route path="/Team" element={<Team/>} />
 <Route path="/Card" element={<Card/>} />
