@@ -21,7 +21,7 @@ const Signin: React.FC = () => {
   return (
     <div className="bg-[#0e387a] h-screen mx-auto">
       <h1 className="text-center text-3xl text-[#9fafca] hover:text-[#b8df10] font-extrabold pt-10 pb-10">
-        Sign In Form
+        Sign In 
       </h1>
 
       {error && <div className="text-red-500 text-center">{error}</div>}
