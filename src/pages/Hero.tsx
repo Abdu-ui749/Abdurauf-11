@@ -10,12 +10,14 @@ const Hero = () => {
     >
 <p className='text-4xl  mt-[50px]  font-bold' >Do you want to by a new football ball?</p>
     <p className='text-4xl  mt-[20px]  font-bold' >Sign in or Register</p>
+  
+        </div>
+      </div>
     </div>
-    </div>
-
-    </div>
+    
   
   )
 }
+      
 
 export default Hero
